@@ -1,7 +1,7 @@
 body
 {
-    color: red;
-    text-align: left;
+    color: black;
+    text-align: center;
     font-family: 'Arial';
     font-size: 16px;
     margin: 0;
@@ -11,7 +11,7 @@ body
 #cabecera
 {
    background: #33A;
-   box-shadow: 0px 5px 30px 0px rgba(0, 2px, 20px, 0.5);
+   box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
    color: white;
    font-weight: bold;
    margin: 0;
@@ -31,7 +31,7 @@ body
 #container
 {
     width: 70%;
-    padding: 0;
+    padding: 20;
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
@@ -47,4 +47,15 @@ body
 {
     padding: lem;
 
+}
+
+#footer
+{
+    background: #33A;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
+
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0;
 }
